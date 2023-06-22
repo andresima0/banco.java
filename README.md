@@ -1,5 +1,18 @@
 # banco.java
 
+OOP program, using Java as the language and NetBeans as the platform
+
+An example of performing some simple banking operations such as withdrawals, deposits, and transfers. Each account has an associated client and a balance that can be manipulated by the performed operations.
+
+The `Account` class presented in the code is a simplified representation of a bank account. The class has the attributes `client` and `balance`, and methods to display the balance, perform withdrawals, deposits, and transfers between accounts:
+
+- The `displayBalance()` method prints the client's name and the current balance of the account.
+- The `withdraw(double amount)` method subtracts the specified amount from the account's balance.
+- The `deposit(double amount)` method adds the specified amount to the account's balance.
+- The `transfer(Account destination, double amount)` method performs a transfer of a specified amount from the current account to another account specified as the destination. This method utilizes the `withdraw()` and `deposit()` methods to adjust the balances of the accounts involved in the transfer.
+
+##
+
 ### Portuguese version
 
 Um exemplo de realização de algumas operações bancárias simples, como saques, depósitos e transferências. Cada conta possui um cliente associado e um saldo, que pode ser manipulado pelas operações realizadas.
